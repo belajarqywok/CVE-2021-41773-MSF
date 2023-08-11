@@ -1,0 +1,5 @@
+#!"C:\xampp\php\php.exe"
+<?php
+	echo "Content-type: text/plain; charset=iso-8859-1\n\n";
+	echo shell_exec("ls");
+?>
